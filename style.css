@@ -1,0 +1,86 @@
+main {
+    font-size: 30px;
+}
+
+.logo {
+    color: #000;
+    font-size: 5em;
+}
+.navbar ul {
+    text-align: right;
+    background-color: #999;
+    margin: 0;
+    padding : 1em;
+}
+
+
+.navbar li{
+    display: inline;
+    margin: 2em;
+    color: #fff;
+
+}
+header{
+    color: #FFF;
+    background-color: #000;
+    font-size: 40px;
+    padding: 1em;
+}
+
+h1 {
+    
+    font-size: 2em;
+    padding: 10px;
+    margin: 0px;
+    content: 400px;
+}
+
+h2 {
+    margin: 0;
+    color: #000;
+}
+p {
+    color: #000;
+}
+
+.container {
+    text-align: center;
+    font-size: 1em;
+}
+
+
+body {
+    background-color: #ADD8E6; /*LightBlue*/
+    background-image: opacity 0.1; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+button {
+    
+    background-color: #888;
+    color: #000;
+    font-size: 1em;
+    padding: 10px 1em;
+    border-radius: 10%;
+}
+
+main {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.spanImage {
+    background-image: url("../image/github.svg"); 
+    background-repeat: no-repeat;
+    background-position: absolute;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
