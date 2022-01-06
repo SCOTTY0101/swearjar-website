@@ -1,2 +1,2 @@
 # swearjar-website
-Static website built using AWS Route 53, cloud hosting platform.
+Static website built via AWS Route 53 to host my cloud platform.
