@@ -2,63 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet"  type="text/css" href="./style.css">
-    <script type="text/javascript" src="./index.js"></script>
+    <link rel="icon" type="image/x-icon" href="image/favicon-16x16.png">
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/index.js" ></script>
+
     <title>SwearJarSoftware</title>
 </head>
 
-<body class="container">
+
+<body>
+  
     <nav class="navbar"> 
-        <ul>
-            <li>Add contact number here: 0432 285 ###</li>
-            <li>Contact: swearjarsoftware@gmail.com</li>
-            <li><a href="mailto:swearjarsoftware@gamil.com">Contant Email</a></li>
+      <div class="nav-container">
+        <div class="logo">sJs</div> 
+          <ul class="nav">
+            <li> 
+              <a href="mailto:swearjarsoftware@gmail.com">
+              <img src="image/envelope-check.svg" alt="email icon"> Contact us</a>
+            </li>
+            <li>
+              <a href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
+              <img src="image/linkedin.svg" alt="LinkedIn logo"></a>
+            </li>
         </ul>
+      </div>
     </nav>
-    
-    <header>
+
+  
+    <header id="main-header">
         <h1>SwearJar Software</h1>
     </header>
-    
-    <div class="logo">WELCOME TO</div>
 
-    <main>
-        <h2>developing software to meet your needs.</h2>
-        <p>Demo frontend website for testing. 
-        </p>
-        <p>Cloud hosted via AWS Route 53, static website. The new webpage is under construction.... <br>
-            2022 will also see the website evolve into AWS, dynamic website running on a linux server.</p>
-        <br>
-        <p>Basic html, css and javascript files used to build this page.
-        <br>
-         No bootstrap, Sass, React, NodeJS(backend code) or MongoDB(data base) running as yet.</p>
-        <p>The "Swear jar" name comes from chasing coding bugs and problem solving. 
-        <br>
-            Email to have your own website build.
-        </p>
-         <hr>
-         <p>Testing javascript logic...</p>
-         <h2 class="pBall">The magic 8 ball button below</h2>
-         <button class="magic" onclick="Magic()">Ask a question and click for an answer?</button>
-         <p>Launching SwearJar Software in 2021/2022.<br>
-            Development and refining of coding skills </p>
-        <button onclick="btn()">Change The Background Colour. Refresh page to change back.</button>
+    <main id="main">
+      <div id="network">
+        <img src="image/network.png" alt="cloud network" id="cloudImage">
+      </div> 
+      <h1 class="h1">Welcome to developing software to meet your needs.</h1>
     </main>
 
+    <article class="article">
+      <div class="article-container">
+        <p>Demo front-end website project for testing. Developing the software of tomorrow.<span class="br"></span>
+        A cloud hosted, static website via AWS Route 53. The new webpage is under construction....<span class="br"></span>
+        2022 will also see the website evolve into AWS EC2 instance, running a virtual linux server in the cloud.<span class="br"></span>
+        <a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
+        <img src="image/cloud.svg" alt="cloud" id="xs-cloud"></a><span class="br"></span> 
+         Working with all things javascript to understand, Full Stack development.
+        </p>
+      </div>
+    </article>
+
+    <article class="article">
+      <div class="article-container">                 
+        <p>Html, css(Flexbox) and javascript files used to build this webpage.<span class="br"></span>
+        No bootstrap framework, React, NodeJS(backend code) or MongoDB(database) running yet.<span class="br"></span>
+        Building websites for mobile first to scale correctly.</p>
+        <p>The "Swear jar" name comes from chasing coding bugs and problem solving.</p>
+        <p>Launching SwearJar Software in 2021/2022.<span class="br"></span>
+        Programming development and refining of skills started in 2019. Monthly website updates will be pushed to the cloud.</p>
+        <p>Email and have a website built to your design requirements.<span class="br"></span>
+        Website development lead time are 2 - 4 weeks for a basic static site. Fully custom website, 4 to 16 weeks.<span class="br"></span>
+        Custom website involves a <b>six</b> stage proccess : Analysing requirements, Design,  Revisions, 
+        Development, Content and Migration/Go live.</p>
+      </div>        
+    </article>
+    <hr>
+
+    <article class="article">
+      <div class="article-container">
+        <h2>Testing vanilla javascript logic and the DOM</h2>
+        <img class="ball" src="image/ball.png"  alt="magic decision ball">
+        <h3 class="pBall">Magic Decision ball</h3>
+        <button class="magic" onclick="Magic()">Ask a question and click for an answer?</button>
+        <p>Change background Colour</p>
+        <button type="button" onclick="colourBtn()">Change colour</button>
+        <button type="button" onclick="resetBtn()">Reset colour</button>
+      </div>
+    </article>
+   
     <footer>
-        <!-- This is in the footer section.....add github here! -->
-        <p>Click on the github icon below to view the code or follow me.</p>
-        <a href="http://www.github.com/SCOTTY0101/swearjar-website" target="_blank">
-            <span class="spanImage">
-                <img src="./github.svg" alt="gitgit">
-            </span></a>
-            <br>
-        <p>Copyright &copy; SwearJarSoftware 2022</p>
+      <p>GitHub icon to view code or follow.</p>
+      <a href="http://www.github.com/SCOTTY0101/swearjar-website" target="_blank" rel="noopener noreferrer">
+      <img id="gitIcon" src="image/github.svg" alt="github click link"></a>
+      <a href="http://www.github.com">GitHub</a>
+      <p> &copy; SwearJarSoftware 2019-2022</p>
     </footer>
-    
-</body>
+
+</body>  
 </html>
