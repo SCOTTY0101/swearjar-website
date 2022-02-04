@@ -153,23 +153,6 @@ button:hover {
   opacity: 1;
 }
 
-.aside {
-  display: flex;
-  justify-content: end;
-  background-color: red;
-  width: 30%;
-}
-.aside .container {
-  justify-content: space-around;
-}
-.side {
-  justify-content: space-around;
-  height: 5rem;
-  width: auto;
-  background-color: blue;
-  color: #fff;;
-}
-
 footer {
   display: flex;
   justify-content: center;
