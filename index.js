@@ -12,7 +12,8 @@ resetBtn = () => {
   /**Code controls the decision making of the click button.
    *  Math random() selects a valve in the decision array. 
    */
-  Magic = () => {
+
+ magic = () => {
     const decision = ['Yes', 
                       'No', 
                       'Outlook not so certain',
