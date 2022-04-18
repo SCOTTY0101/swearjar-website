@@ -7,21 +7,7 @@ colourBtn = () => {
 resetBtn = () => {
      document.querySelector('body').style.backgroundColor = "#ADD8E6"; //DeepSkyBlue
   };
-/*
-//move button in js class.
-class Button {
-    constructor(button) { 
-        this.button = button;
-    }
-    buttonColor() {
-    document.querySelector('body').style.backgroundColor = "#00bfff"; //DeepSkyBlue
-    }
-}
 
-let colorBtn = new Button(document.querySelector('body').style.backgroundColor = "#00bfff")
-
-colorBtn.button();
-*/
 
   /**Code controls the decision making of the click button.
    *  Math random() selects a valve in the decision array. 
@@ -56,38 +42,5 @@ colorBtn.button();
 };
 
 
-// React cdn script
-//import React from 'react';
-//import ReactDOM from 'react-dom'
 
-/*ReactDOM
-.createRoot(document.getElementById('root'))
-.render( <h1>{'Hell'}</h1> );
-
-const domContainer = document.querySelector('#like_button_container');
-const root = ReactDOM.createRoot(domContainer);
-root.render(e(LikeButton));
-
-*/
-
-/**
- * // Initializing a function with a function expression
-const x = function() {} 
-//Object.getPrototypeOf(x);
-
-// Initializing a class with a class expression
-const y = class {}
- */
-/*function Hero(name, level) {
-    this.name = name;
-    this.level = level;
-
-
-    Hero.prototype.greet = function() {
-        return `${this.name} say hello.`
-    }
-}
-let addHero = new Hero('thor', 5);
-console.log(addHero);
-*/
 
