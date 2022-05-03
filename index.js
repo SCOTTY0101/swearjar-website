@@ -34,9 +34,10 @@ resetBtn = () => {
         function updateButton() {
             if (btn.textContent === 'Ask a question and click for an answer?') {
                 return btn.textContent = reply;
+            } else if (btn.textContent === reply;) {
+                return btn.textContent = 'Ask a question and click for an answer?';
             } else {
-                btn.textContent === reply;
-                btn.textContent = 'Ask a question and click for an answer?';
+                return btn.textContent = 'Ask a question and click for an answer?';
             }
         }
         updateButton();
