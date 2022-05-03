@@ -28,6 +28,7 @@ body {
   background-color: orange; 
   color: #000;
   height: 4rem;  
+  z-index: 1;
 }
 
 .navbar .nav-container {
