@@ -5,7 +5,7 @@
 
 
 body {
-  background-color: #ADD8E6;  /*lightcyan */
+  background-color: #ADD8E6;  /*lightcyan  colour || color*/
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -32,11 +32,11 @@ body {
 }
 
 .navbar .nav-container {
-  display: flex; /*flex here now working*/
+  display: flex; /*Dev notes. Flex here now working*/
   max-width: auto;
   justify-content: space-between;
   align-items: center;
-  height: 100%; /*use the height from the .navbar*/
+  height: 100%; /*Dev notes. Use the height from the .navbar*/
 }
  .navbar .logo {
   font-weight: bold;
@@ -177,9 +177,7 @@ button:hover {
   background-color: blue;
   color: #fff;;
 }
-/* div #bne {
-  background-position: center center;
- }*/
+
 #bne {
   background-image: url(../image/SouthBank30-12-21.jpeg);
   background-repeat: no-repeat;
