@@ -6,7 +6,7 @@ colourBtn = () => {
     document.querySelector('body').style.backgroundColor = "#00bfff"; //DeepSkyBlue colour || color.
  };
 resetBtn = () => {
-     document.querySelector('body').style.backgroundColor = "#ADD8E6"; //DeepSkyBlue coulor || color.
+     document.querySelector('body').style.backgroundColor = "#ADD8E6"; //DeepSkyBlue colour || color.
   };
 
 
